@@ -14,6 +14,7 @@ Scenario: Alert when seating capacity is full
   For the current instance of time
   And the total seating capacity of the building.
   
-  When: If number of visitors in the premises is equal to the total sitting capacity of the building.
+  When: If number of visitors in the premises is equal to 
+  The total sitting capacity of the building.
   
   Then: It generate a alert for the same.
