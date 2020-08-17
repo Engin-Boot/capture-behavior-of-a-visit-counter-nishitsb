@@ -5,7 +5,7 @@ that runs the visit-counter
 
   Given: We have a running database.
   
-  When: We have a program which updates 
+  When: We have a program which updates
   the visit-counter in every 1 minute duration
   In the databse.
   
