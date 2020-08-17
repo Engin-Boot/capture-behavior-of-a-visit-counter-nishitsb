@@ -13,6 +13,10 @@ that runs the visit-counter
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
-  Given
-  When
-  Then
+  Given: Sensor should have some internal memory to store the counts.
+  
+  When: the sensor gets online it stores the counts in the database.
+  
+  Then: We can reconcile the counts
+  Stored in the internal memory of the sensor
+  If it goes offline.
