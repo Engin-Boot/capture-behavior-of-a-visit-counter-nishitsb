@@ -2,7 +2,7 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given: I have the record of registrations of the pateints for all days
+  Given: I have the record of registrations of the patients for all days
   And the calendar mentioned all working days and holidays.
   
   When: I calculate total number of registrations on working days and holidays.
