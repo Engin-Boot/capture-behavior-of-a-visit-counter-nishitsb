@@ -7,7 +7,7 @@ that runs the visit-counter
   
   When: We have a program which updates
   the visit-counter in every 1 minute duration
-  In the databse.
+  In the database.
   
   Then: We can recover visit-counter across restarts.
 
