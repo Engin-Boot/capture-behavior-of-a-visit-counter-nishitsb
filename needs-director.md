@@ -19,5 +19,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
   From
   Total number of parking slots.
   
-  Then: I have the number of parking slot
-  That can be reserved for visiting specialists
+  Then: I have the number of parking slot reserved for visiting specialists.
